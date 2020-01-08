@@ -1,0 +1,22 @@
+// .setAttribute()는 선택한 요소(element)의 속성(attribute) 값을 정함
+
+element.setAttribute( 'attributename', 'attributevalue' )
+
+// attributename에는 속성 이름, attributevalue에는 속성값
+
+
+//예제
+
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript | .setAttribute()</title>
+  </head>
+  <body>
+    <p><a id="abc" href="#">CODING FACTORY</a></p>
+    <script>
+      document.getElementById( 'abc' ).setAttribute( 'href', 'https://www.codingfactory.net' );
+    </script>
+  </body>
+</html>
