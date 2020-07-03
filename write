@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+infinite repeat
+</head>
+<body>
+ <h1>e hap!</h1>
+ <p>hyou</p>
+
+ <p>this is the promise now make it ya</p>
+ 
+ <script>
+ document.write(5 + 6, 'whats the basic?');
+ </script>
+</body>
+</html>
+
+<!-- script 태그에서 document.write( )를 사용 
+     사칙연산의 결과와 문구를 같이 표기하려고 할 때
+     문구는 '' 사용하고 문구와 숫자 구분은 콤마(,)
+     -->
