@@ -1,0 +1,24 @@
+<!-- 자바스크립트에서의 변수 선언과 innerHTML, getElementById를 이용한 결과 출력 -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        hit it
+    </head>
+    <body>
+        <h1>JavaScript Statement</h1>
+
+        <p>Yo <b>Check it out!</b> man~ <b>this is a competition</b> you've got it?</p>
+
+        <p id="nemo"></p>
+
+        <script>
+            var a, b, c;    //Statement1
+            a = 1;          //Statement2
+            b = 2;          //Statement3
+            c = a * b;      //Statement4
+
+            document.getElementById("nemo").innerHTML = "do you wonder about c? that is" +" " + c +"!"; 
+        </script>
+    </body>
+</html>
